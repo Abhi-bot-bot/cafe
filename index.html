@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velvet Roast Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-animated.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="logo-wrap">
+        <span class="logo-icon">☕</span>
+        <span class="logo-text">Velvet Roast</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reserve">Reserve</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero reveal" id="home">
+      <div class="hero-copy">
+        <span class="hero-badge">Freshly brewed • Since 2012</span>
+        <h1>Where every sip feels like a warm story.</h1>
+        <p>From silky lattes to slow evenings, we craft the café moment you’ll want to stay in.</p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="btn primary">Explore Menu</a>
+          <a href="#reserve" class="btn secondary">Reserve Table</a>
+        </div>
+
+        <div class="hero-metrics">
+          <div class="metric-card">
+            <strong>12k+</strong>
+            <span>happy cups</span>
+          </div>
+          <div class="metric-card">
+            <strong>4.9★</strong>
+            <span>guest love</span>
+          </div>
+          <div class="metric-card">
+            <strong>24/7</strong>
+            <span>cozy vibes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-glow"></div>
+        <div class="hero-card-inner">
+          <p class="mini-label">Today’s Signature</p>
+          <h3>Honey Cinnamon Latte</h3>
+          <div class="drink-row">
+            <div>
+              <span>Sweetness</span>
+              <strong>Balanced</strong>
+            </div>
+            <div>
+              <span>Roast</span>
+              <strong>Medium</strong>
+            </div>
+          </div>
+          <div class="drink-row">
+            <div>
+              <span>Price</span>
+              <strong>₹189</strong>
+            </div>
+            <div>
+              <span>Prep</span>
+              <strong>3 min</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="about section reveal" id="about">
+      <div class="about-image">
+        <img src="images/about.jpg" alt="Cafe interior atmosphere">
+      </div>
+
+      <div class="about-content">
+        <span class="section-tag">About us</span>
+        <h2>Brewing coffee, building beautiful memories.</h2>
+        <p>Velvet Roast is your soft-lit corner for espresso, brunch, and long conversations. Every detail is tuned to feel warm, modern, and unforgettable.</p>
+
+        <div class="features">
+          <div class="feature">
+            <span>☕</span>
+            <h4>Fresh beans</h4>
+          </div>
+          <div class="feature">
+            <span>🍕</span>
+            <h4>Street bites</h4>
+          </div>
+          <div class="feature">
+            <span>✨</span>
+            <h4>Cozy ambience</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section reveal" id="menu">
+      <div class="section-heading">
+        <span class="section-tag">Our menu</span>
+        <h2>Fan favorites</h2>
+        <p>Comfort classics, artful coffee, and fresh bites made to linger over.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <img src="images/coffee.jpg" alt="Cappuccino">
+          <div class="menu-content">
+            <h3>Cappuccino</h3>
+            <p>Silky espresso foam, rich crema, and a warm finish.</p>
+            <div class="price-row">
+              <span class="price">₹149</span>
+              <a href="#reserve" class="order-btn">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img src="images/pizza.jpg" alt="Cheese pizza">
+          <div class="menu-content">
+            <h3>Cheese Pizza</h3>
+            <p>Golden crust, bubbling cheese, and that perfect bite.</p>
+            <div class="price-row">
+              <span class="price">₹249</span>
+              <a href="#reserve" class="order-btn">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img src="images/burger.jpg" alt="Classic burger">
+          <div class="menu-content">
+            <h3>Classic Burger</h3>
+            <p>Charred flavor, juicy center, and a crunchy fresh finish.</p>
+            <div class="price-row">
+              <span class="price">₹199</span>
+              <a href="#reserve" class="order-btn">Order</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery section reveal" id="gallery">
+      <div class="section-heading">
+        <span class="section-tag">Gallery</span>
+        <h2>Behind the bar and beyond</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-tile large" style="background-image: url('images/hero.jpg');"></div>
+        <div class="gallery-tile" style="background-image: url('images/about.jpg');"></div>
+        <div class="gallery-tile" style="background-image: url('images/coffee.jpg');"></div>
+        <div class="gallery-tile" style="background-image: url('images/hero.jpg');"></div>
+      </div>
+    </section>
+
+    <section class="reserve section reveal" id="reserve">
+      <div class="reserve-card">
+        <div>
+          <span class="section-tag">Reserve</span>
+          <h2>Save your cozy table for tonight.</h2>
+          <p>Plan a date night, a work sprint, or a slow coffee catch-up with us.</p>
+        </div>
+        <a href="#home" class="btn primary">Book now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Velvet Roast Café • Crafted for coffee lovers and slow afternoons.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
